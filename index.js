@@ -3,7 +3,7 @@ const path = require('path');
 const RippleAPI = require('ripple-lib').RippleAPI;
 
 const app = express();
-const port = 3022;
+const port = process.env.PORT || 5000;
 
 // Connect to Ripple network
 const api = new RippleAPI({ server: 'wss://s.altnet.rippletest.net:51233' });
