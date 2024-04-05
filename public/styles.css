@@ -1,0 +1,20 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+input[type="number"], button {
+    padding: 10px;
+    margin: 10px;
+}
+
+#yourAddress{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+#status {
+    font-weight: bold;
+}
